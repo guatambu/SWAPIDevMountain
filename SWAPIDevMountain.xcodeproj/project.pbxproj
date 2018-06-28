@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA12BB0320E5575900A597DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA12BB0220E5575900A597DF /* AppDelegate.swift */; };
+		FA12BB0520E5575900A597DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA12BB0420E5575900A597DF /* ViewController.swift */; };
+		FA12BB0820E5575900A597DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA12BB0620E5575900A597DF /* Main.storyboard */; };
+		FA12BB0A20E5575900A597DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA12BB0920E5575900A597DF /* Assets.xcassets */; };
+		FA12BB0D20E5575900A597DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA12BB0B20E5575900A597DF /* LaunchScreen.storyboard */; };
+		FA12BB1820E5575900A597DF /* SWAPIDevMountainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA12BB1720E5575900A597DF /* SWAPIDevMountainTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA12BB1420E5575900A597DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA12BAF720E5575900A597DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA12BAFE20E5575900A597DF;
+			remoteInfo = SWAPIDevMountain;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA12BAFF20E5575900A597DF /* SWAPIDevMountain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWAPIDevMountain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA12BB0220E5575900A597DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA12BB0420E5575900A597DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA12BB0720E5575900A597DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA12BB0920E5575900A597DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA12BB0C20E5575900A597DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA12BB0E20E5575900A597DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA12BB1320E5575900A597DF /* SWAPIDevMountainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SWAPIDevMountainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA12BB1720E5575900A597DF /* SWAPIDevMountainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWAPIDevMountainTests.swift; sourceTree = "<group>"; };
+		FA12BB1920E5575900A597DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA12BAFC20E5575900A597DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA12BB1020E5575900A597DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA12BAF620E5575900A597DF = {
+			isa = PBXGroup;
+			children = (
+				FA12BB0120E5575900A597DF /* SWAPIDevMountain */,
+				FA12BB1620E5575900A597DF /* SWAPIDevMountainTests */,
+				FA12BB0020E5575900A597DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA12BB0020E5575900A597DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA12BAFF20E5575900A597DF /* SWAPIDevMountain.app */,
+				FA12BB1320E5575900A597DF /* SWAPIDevMountainTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA12BB0120E5575900A597DF /* SWAPIDevMountain */ = {
+			isa = PBXGroup;
+			children = (
+				FA12BB0220E5575900A597DF /* AppDelegate.swift */,
+				FA12BB0420E5575900A597DF /* ViewController.swift */,
+				FA12BB0620E5575900A597DF /* Main.storyboard */,
+				FA12BB0920E5575900A597DF /* Assets.xcassets */,
+				FA12BB0B20E5575900A597DF /* LaunchScreen.storyboard */,
+				FA12BB0E20E5575900A597DF /* Info.plist */,
+			);
+			path = SWAPIDevMountain;
+			sourceTree = "<group>";
+		};
+		FA12BB1620E5575900A597DF /* SWAPIDevMountainTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA12BB1720E5575900A597DF /* SWAPIDevMountainTests.swift */,
+				FA12BB1920E5575900A597DF /* Info.plist */,
+			);
+			path = SWAPIDevMountainTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA12BAFE20E5575900A597DF /* SWAPIDevMountain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA12BB1C20E5575900A597DF /* Build configuration list for PBXNativeTarget "SWAPIDevMountain" */;
+			buildPhases = (
+				FA12BAFB20E5575900A597DF /* Sources */,
+				FA12BAFC20E5575900A597DF /* Frameworks */,
+				FA12BAFD20E5575900A597DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SWAPIDevMountain;
+			productName = SWAPIDevMountain;
+			productReference = FA12BAFF20E5575900A597DF /* SWAPIDevMountain.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA12BB1220E5575900A597DF /* SWAPIDevMountainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA12BB1F20E5575900A597DF /* Build configuration list for PBXNativeTarget "SWAPIDevMountainTests" */;
+			buildPhases = (
+				FA12BB0F20E5575900A597DF /* Sources */,
+				FA12BB1020E5575900A597DF /* Frameworks */,
+				FA12BB1120E5575900A597DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA12BB1520E5575900A597DF /* PBXTargetDependency */,
+			);
+			name = SWAPIDevMountainTests;
+			productName = SWAPIDevMountainTests;
+			productReference = FA12BB1320E5575900A597DF /* SWAPIDevMountainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA12BAF720E5575900A597DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Leme Group";
+				TargetAttributes = {
+					FA12BAFE20E5575900A597DF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FA12BB1220E5575900A597DF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA12BAFE20E5575900A597DF;
+					};
+				};
+			};
+			buildConfigurationList = FA12BAFA20E5575900A597DF /* Build configuration list for PBXProject "SWAPIDevMountain" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA12BAF620E5575900A597DF;
+			productRefGroup = FA12BB0020E5575900A597DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA12BAFE20E5575900A597DF /* SWAPIDevMountain */,
+				FA12BB1220E5575900A597DF /* SWAPIDevMountainTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA12BAFD20E5575900A597DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA12BB0D20E5575900A597DF /* LaunchScreen.storyboard in Resources */,
+				FA12BB0A20E5575900A597DF /* Assets.xcassets in Resources */,
+				FA12BB0820E5575900A597DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA12BB1120E5575900A597DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA12BAFB20E5575900A597DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA12BB0520E5575900A597DF /* ViewController.swift in Sources */,
+				FA12BB0320E5575900A597DF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA12BB0F20E5575900A597DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA12BB1820E5575900A597DF /* SWAPIDevMountainTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA12BB1520E5575900A597DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA12BAFE20E5575900A597DF /* SWAPIDevMountain */;
+			targetProxy = FA12BB1420E5575900A597DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA12BB0620E5575900A597DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA12BB0720E5575900A597DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA12BB0B20E5575900A597DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA12BB0C20E5575900A597DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA12BB1A20E5575900A597DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA12BB1B20E5575900A597DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA12BB1D20E5575900A597DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2Z9B2AZ4W;
+				INFOPLIST_FILE = SWAPIDevMountain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LemeGroup.SWAPIDevMountain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA12BB1E20E5575900A597DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2Z9B2AZ4W;
+				INFOPLIST_FILE = SWAPIDevMountain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LemeGroup.SWAPIDevMountain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA12BB2020E5575900A597DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2Z9B2AZ4W;
+				INFOPLIST_FILE = SWAPIDevMountainTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LemeGroup.SWAPIDevMountainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SWAPIDevMountain.app/SWAPIDevMountain";
+			};
+			name = Debug;
+		};
+		FA12BB2120E5575900A597DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2Z9B2AZ4W;
+				INFOPLIST_FILE = SWAPIDevMountainTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LemeGroup.SWAPIDevMountainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SWAPIDevMountain.app/SWAPIDevMountain";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA12BAFA20E5575900A597DF /* Build configuration list for PBXProject "SWAPIDevMountain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA12BB1A20E5575900A597DF /* Debug */,
+				FA12BB1B20E5575900A597DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA12BB1C20E5575900A597DF /* Build configuration list for PBXNativeTarget "SWAPIDevMountain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA12BB1D20E5575900A597DF /* Debug */,
+				FA12BB1E20E5575900A597DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA12BB1F20E5575900A597DF /* Build configuration list for PBXNativeTarget "SWAPIDevMountainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA12BB2020E5575900A597DF /* Debug */,
+				FA12BB2120E5575900A597DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA12BAF720E5575900A597DF /* Project object */;
+}
